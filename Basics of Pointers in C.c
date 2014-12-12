@@ -31,6 +31,8 @@ int main(){
     *p = 800;
     printf("*p: %d\n" , *p );
 
+    printf("x: %d\n" , x );
+
     // 0 , 1 . ..
     // let's pointer is pointing to RAM address 500
     //
