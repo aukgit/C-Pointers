@@ -21,7 +21,16 @@ int main(){
 
     int * pointer = (int *)malloc(10 * sizeof(int)) ; // null pointer takes two bytes
 
-    int *p = &
+    //int *p = &x;
+    int *p;
+    p = &x;
+    printf("&x: %d , p: %d\n" , &x, p );
+
+    x = 10000;
+    printf("*p: %d\n" , *p ); // 10,000 , pointer p is pointing to x
+    *p = 800;
+    printf("*p: %d\n" , *p );
+
     // 0 , 1 . ..
     // let's pointer is pointing to RAM address 500
     //
