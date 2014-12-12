@@ -16,10 +16,12 @@
 //Write Functions Above
 
 int main(){
-    int     x;
-    int     a,b;
+    int     x = 190;
+    int     a=240, b = 530;
 
-    int *pointer = (int *)malloc(10 * sizeof(int)) ; // null pointer takes two bytes
+    int * pointer = (int *)malloc(10 * sizeof(int)) ; // null pointer takes two bytes
+
+    int *p = &
     // 0 , 1 . ..
     // let's pointer is pointing to RAM address 500
     //
